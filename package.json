@@ -1,5 +1,34 @@
 {
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1"
+  },
+  "name": "backend_hitesh",
+  "version": "1.0.0",
+  "description": "this is a backend exclusive series",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshaya719/backend-chaicode.git"
+  },
+  "keywords": [
+    "backend",
+    "project"
+  ],
+  "author": "akshaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshaya719/backend-chaicode/issues"
+  },
+  "homepage": "https://github.com/Akshaya719/backend-chaicode#readme"
 }
